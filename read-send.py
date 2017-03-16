@@ -18,7 +18,7 @@ while True:
                 theline=theline+line
             else:
                 print(theline.rstrip())
-                urllib.request.urlopen("http://arman.in/iot/sendme.php?userid=922&value="+theline.rstrip()).read()
+                urllib.request.urlopen("http://arman.com/iot/sendme.php?userid=222&value="+theline.rstrip()).read()
                 theline=""
 
 
